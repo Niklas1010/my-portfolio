@@ -517,4 +517,6 @@ a[href^="tel:"] {
 
 textarea {
     padding: 10px 15px;
+    width: 100%;
+    min-width: 280px;
 }
