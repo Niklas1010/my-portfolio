@@ -293,7 +293,7 @@ h3 {
 .tl-card {
     position: relative;
     width: 300px;
-    height: 90px;
+    height: 100px;
     background: transparent;
     backdrop-filter: blur(2px) saturate(110%);
     -webkit-backdrop-filter: blur(2px) saturate(110%);
@@ -313,7 +313,7 @@ h3 {
 }
 
 .tl-year {
-    margin-top: 4px;
+    margin-top: 10px;
     margin-left: 20px;
     font-size: 14px;
     font-weight: 500;
@@ -332,7 +332,7 @@ h3 {
 }
 
 .tl-desc {
-    margin-top: 4px;
+    margin-top: 5px;
     margin-left: 20px;
     font-size: 15px;
     color: #5f5e5a;
@@ -387,7 +387,8 @@ p {
     transition: background-color 0.3s ease;
     display: block;
     margin: 20px auto;
-    width: max-content;
+    width: 300px;
+    text-align: center;
 }
 
 .download-button:hover {
